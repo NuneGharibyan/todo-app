@@ -6,7 +6,7 @@ import {
 } from "../../store/todoSlice";
 import { TodoList } from "../TodoList/TodoList";
 
-const Todos: React.FC<{}> = () => {
+const Todos: React.FC = () => {
   const activeTodoIds: string[] = useSelector(selectActiveTodoIds);
   const removedTodoIds: string[] = useSelector(selectRemovedTodoIds);
 
