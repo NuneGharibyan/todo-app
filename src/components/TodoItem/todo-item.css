@@ -1,0 +1,13 @@
+.todo-item__container {
+    width: 100%;
+}
+
+.todo-item__title {
+    font-weight: 600;
+}
+
+.todo-item__tag {
+    margin-top: 5;
+    margin-bottom: 5;
+    text-transform: capitalize;
+}
